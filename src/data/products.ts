@@ -316,6 +316,216 @@ export const products: Product[] = [
       { title: "Zgjat më shumë", desc: "Materiali premium nuk zbërthehet edhe pas javësh përdorimi." },
     ],
   },
+  {
+    slug: "detergjent-dyshemeje",
+    name: "Detergjent Dyshemeje",
+    tagline: "Pastrim i thellë për çdo lloj dyshemeje",
+    description:
+      "Detergjent profesional me formulë të koncentruar që pastron, dezinfekton dhe lë shkëlqim në dysheme. I përshtatshëm për pllaka, mermere, parket dhe linoleum.",
+    story:
+      "Formula jonë e veçantë kombinon agjentë pastrues të fuqishëm me përbërës mbrojtës që jo vetëm pastrojnë, por edhe ruajnë sipërfaqen e dyshemesë tuaj me kalimin e kohës.",
+    image: catBucket,
+    gallery: [catBucket, floatBucket, catMops, decoMop, catCloths],
+    heroImages: [catBucket, floatBucket, catMops],
+    features: [
+      "Formulë e koncentruar",
+      "Dezinfekton 99.9% të baktereve",
+      "Aromë e freskët e qëndrueshme",
+      "I përshtatshëm për të gjitha sipërfaqet",
+    ],
+    useCases: [
+      "Pastrim shtëpie",
+      "Hotele & restorante",
+      "Zyra & hapësira komerciale",
+    ],
+    materials: "Surfaktantë jonikë, parfum natyral, ujë i dejonizuar",
+    specs: [
+      { label: "Volumi", value: "1L, 5L, 20L" },
+      { label: "pH", value: "7.5 – 8.5" },
+      { label: "Përqendrimi", value: "1:50" },
+      { label: "Aroma", value: "Lavandë, Limon, Pisha" },
+    ],
+    benefits: [
+      { title: "Pastrim i thellë", desc: "Formulë e koncentruar që largon edhe papastërtitë më kokëforta." },
+      { title: "Mbrojtje sipërfaqeje", desc: "Përbërësit mbrojtës ruajnë shkëlqimin natyral të dyshemesë." },
+      { title: "Ekonomike", desc: "Përqendrimi i lartë do të thotë më pak produkt për më shumë pastrim." },
+    ],
+  },
+  {
+    slug: "leng-enesh",
+    name: "Lëng Enësh",
+    tagline: "Shkumë e fuqishme kundër yndyrës",
+    description:
+      "Lëng enësh profesional me fuqi të jashtëzakonshme kundër yndyrës. Pastron në mënyrë efikase duke qenë i butë për duart. Ideal për kuzhinat profesionale dhe përdorim shtëpiak.",
+    story:
+      "Çdo pikë e lëngut tonë të enëve ofron shkumë të bollshme dhe fuqi pastrimi që nuk kompromentohet. I zhvilluar në bashkëpunim me kuzhinierë profesionistë për rezultatin më të mirë.",
+    image: catSponges,
+    gallery: [catSponges, productSponge, decoSponge, floatSponge, catCloths],
+    heroImages: [catSponges, productSponge, decoSponge],
+    features: [
+      "Shkumë e bollshme dhe e qëndrueshme",
+      "Largon yndyrën e fortë",
+      "I butë për duart",
+      "Aroma e këndshme",
+    ],
+    useCases: [
+      "Kuzhinat profesionale",
+      "Pastrim shtëpiak",
+      "Restorante & bar",
+    ],
+    materials: "Surfaktantë anionikë, aloe vera, parfum",
+    specs: [
+      { label: "Volumi", value: "500ml, 1L, 5L" },
+      { label: "pH", value: "6.5 – 7.5" },
+      { label: "Aroma", value: "Limon, Mollë, Fresh" },
+      { label: "Shkumëzimi", value: "I lartë" },
+    ],
+    benefits: [
+      { title: "Anti-yndyrë", desc: "Formulë e fuqishme që tret yndyrën pa mundim." },
+      { title: "Kujdes për duart", desc: "Aloe vera dhe vitamina E mbrojnë lëkurën gjatë përdorimit." },
+      { title: "Ekonomik", desc: "Shkumë e bollshme me vetëm disa pika produkti." },
+    ],
+  },
+  {
+    slug: "sprej-xhamash",
+    name: "Sprej Xhamash",
+    tagline: "Xhama të pastër pa gjurmë",
+    description:
+      "Sprej profesional për pastrim xhamash, pasqyrash dhe sipërfaqesh të lëmuara. Formula pa amoniakë lë xhamat kristal të pastër pa vija dhe pa gjurmë.",
+    story:
+      "Transparenca perfekte kërkon formulën perfekte. Spraji ynë i xhamave është rezultat i viteve hulumtim për të arritur pastrimin perfekt — pa vija, pa gjurmë, pa mundim.",
+    image: catCloths,
+    gallery: [catCloths, productCloth, floatSponge, catSponges, catBucket],
+    heroImages: [catCloths, productCloth, floatSponge],
+    features: [
+      "Pa amoniakë",
+      "Pa gjurmë & pa vija",
+      "Tharja e shpejtë",
+      "Formula anti-statike",
+    ],
+    useCases: [
+      "Xhama & dritare",
+      "Pasqyra",
+      "Ekrane & monitor",
+    ],
+    materials: "Alkool izopropilik, surfaktantë, ujë i dejonizuar",
+    specs: [
+      { label: "Volumi", value: "500ml, 750ml, 5L" },
+      { label: "Lloji", value: "Sprej trigger" },
+      { label: "Aroma", value: "Fresh, Pa aromë" },
+      { label: "Tharja", value: "< 30 sekonda" },
+    ],
+    benefits: [
+      { title: "Kristal i pastër", desc: "Lë xhamat transparente pa asnjë gjurmë apo vijë." },
+      { title: "Formula anti-statike", desc: "Largon pluhurin më gjatë, duke reduktuar frekuencën e pastrimit." },
+      { title: "I sigurt", desc: "Pa amoniakë, i sigurt për përdorim pranë fëmijëve dhe kafshëve." },
+    ],
+  },
+  {
+    slug: "set-pastrimi",
+    name: "Set Pastrimi",
+    tagline: "Gjithçka që nevojitet në një paketë",
+    description:
+      "Set komplet pastrimi profesional që përfshin shtupë, kovë, doreza, sfungjerë dhe peshqirë mikrofiber. Zgjidhja ideale për fillimin e pastrimit të organizuar.",
+    story:
+      "Kemi krijuar setin perfekt duke kombinuar produktet tona më të mira në një paketë të vetme. Çdo gjë që ju nevojitet për pastrim profesional, e gatshme për përdorim.",
+    image: catMops,
+    gallery: [catMops, productMop, catBucket, floatMop, catGloves],
+    heroImages: [catMops, productMop, floatMop],
+    features: [
+      "Paketë komplete pastrimi",
+      "Produkte cilësore të kombinuara",
+      "Çmim i favorshëm ndaj blerjes individuale",
+      "Ideale për biznese të reja",
+    ],
+    useCases: [
+      "Biznese të reja",
+      "Furnizim fillestar për zyra",
+      "Kit pastrimi shtëpie",
+    ],
+    materials: "Set i kombinuar produktesh premium",
+    specs: [
+      { label: "Përmbajtja", value: "Shtupë, kovë, doreza, sfungjerë, peshqirë" },
+      { label: "Variante", value: "Bazë, Standard, Premium" },
+      { label: "Garancia", value: "12 muaj" },
+      { label: "Paketimi", value: "Kuti kartoni eko" },
+    ],
+    benefits: [
+      { title: "Kursim i menjëhershëm", desc: "Seti kushton 20% më pak se blerja e produkteve veç e veç." },
+      { title: "Gatishmëri totale", desc: "Çdo gjë në një paketë — asnjë produkt nuk mungon." },
+      { title: "Cilësi e garantuar", desc: "Të gjitha produktet janë testuar dhe certifikuar." },
+    ],
+  },
+  {
+    slug: "lecka-universale",
+    name: "Lecka Universale",
+    tagline: "Një leckë për të gjitha sipërfaqet",
+    description:
+      "Lecka pastrimi universale me fibra të përforcuara, të dizajnuara për përdorim intensiv në ambiente profesionale. Lahen deri në 300 herë pa humbur cilësinë.",
+    story:
+      "Lecka universale është produkti që çdo profesionist i pastrimit e mban afër. E krijuam me fibra speciale që pastrojnë çdo sipërfaqe pa lënë gjurmë dhe pa gërvishtur.",
+    image: catCloths,
+    gallery: [catCloths, productCloth, catSponges, floatSponge, catMops],
+    heroImages: [catCloths, productCloth, floatSponge],
+    features: [
+      "Fibra të përforcuara",
+      "300+ larje pa degradim",
+      "Pa gërvishje",
+      "Ngjyra të koduara për zona",
+    ],
+    useCases: [
+      "Pastrim zyrash",
+      "Hotele & resort",
+      "Spitale & klinika",
+    ],
+    materials: "Mikrofibra e përforcuar, polyester, polyamide",
+    specs: [
+      { label: "Madhësia", value: "35x35cm, 40x40cm" },
+      { label: "Pesha", value: "320gsm" },
+      { label: "Ngjyra", value: "Blu, Verdhë, E kuqe, Jeshile" },
+      { label: "Paketimi", value: "5, 10, 25 copë" },
+    ],
+    benefits: [
+      { title: "Super e qëndrueshme", desc: "Fibrat e përforcuara zgjasin jetën e produktit 3x më shumë." },
+      { title: "Koduese me ngjyra", desc: "Ngjyra të ndryshme për zona të ndryshme — siguron higjienën." },
+      { title: "Eko-miqësore", desc: "Zëvendëson qindra lecka njëpërdorimshme." },
+    ],
+  },
+  {
+    slug: "parfum-ambienti",
+    name: "Parfum Ambienti",
+    tagline: "Aromë e freskët që zgjat",
+    description:
+      "Parfume ambienti profesionale me aroma natyrale që neutralizojnë erërat e pakëndshme dhe krijojnë atmosferë të këndshme. Ideale për ambiente biznesi dhe shtëpiake.",
+    story:
+      "Aroma e duhur transformon një hapësirë. Parfumet tona janë krijuar me esenca natyrale që jo vetëm maskinojnë, por vërtet neutralizojnë erërat — duke lënë vetëm freski.",
+    image: catBags,
+    gallery: [catBags, catGloves, catSponges, decoSponge, catCloths],
+    heroImages: [catBags, catGloves, decoSponge],
+    features: [
+      "Esenca natyrale",
+      "Neutralizon erërat",
+      "Efekt i zgjatur (8+ orë)",
+      "Pa substanca të dëmshme",
+    ],
+    useCases: [
+      "Zyra & ambiente pune",
+      "Hotele & resort",
+      "Shtëpi & banjo",
+    ],
+    materials: "Esenca natyrale, alkool denatyruar, ujë",
+    specs: [
+      { label: "Volumi", value: "300ml, 500ml" },
+      { label: "Lloji", value: "Sprej, Difuzor" },
+      { label: "Aroma", value: "Lavandë, Oqean, Citrus, Pisha" },
+      { label: "Zgjatja", value: "8+ orë" },
+    ],
+    benefits: [
+      { title: "Freski natyrale", desc: "Esencat natyrale ofrojnë aromë autentike, jo artificiale." },
+      { title: "Zgjat gjatë", desc: "Një spërkatje e vetme ofron freski për 8+ orë." },
+      { title: "I sigurt", desc: "Pa CFC, pa substanca alergjike — i sigurt për të gjithë." },
+    ],
+  },
 ];
 
 export const getProductBySlug = (slug: string): Product | undefined =>

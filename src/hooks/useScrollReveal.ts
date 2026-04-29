@@ -1,6 +1,9 @@
 import { useEffect, useRef } from "react";
 
-export function useScrollReveal<T extends HTMLElement = HTMLDivElement>(threshold = 0.15) {
+export function useScrollReveal<T extends HTMLElement = HTMLDivElement>(
+  threshold = 0.15,
+  deps: React.DependencyList = []
+) {
   const ref = useRef<T>(null);
 
   useEffect(() => {
@@ -27,7 +30,7 @@ export function useScrollReveal<T extends HTMLElement = HTMLDivElement>(threshol
     }
 
     return () => observer.disconnect();
-  }, [threshold]);
+  }, [threshold, ...deps]);
 
   return ref;
 }
